@@ -1,0 +1,19 @@
+{
+  "name": "phupq_blog_node_type",
+  "version": "1.0.0",
+  "description": "Simple blog web app to lern how to use Node + Express + Mongo + Type Script + React + GraphQL + Apolo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/index.ts",
+    "watch": "tsc -w",
+    "tsc": "tsc"
+  },
+  "author": "PhuPQ",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.16.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
